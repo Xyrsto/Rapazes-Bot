@@ -1,0 +1,49 @@
+{
+  "name": "RapazesBot",
+  "description": "Dá lhe brita zé",
+  "keywords": [
+    "node",
+    "discord",
+    "youtube",
+    "music",
+    "bot",
+    "lavalink",
+    "dashboard"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "Prefix": {
+      "description": "»",
+      "required": "true"
+    },
+    "Token": {
+      "description": "MTAzNTY3MzUxMzY2NDcwODYzOQ.GAgDk2.L3-FwCgzmrP29FETmDAjCJF8TQY8WHsuhq8Dh4",
+      "required": "true"
+    },
+    "Discord_ClientID": {
+      "description": "1035673513664708639",
+      "required": "true"
+    },
+    "Discord_ClientSecret": {
+      "description": "g4pk1HG9h3MB_Q9OkCIPEHwvEDb4S1IB",
+      "required": "true"
+    },
+    "Website": {
+      "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
+      "value": "http://localhost"
+    },
+    "Spotify_ClientID": {
+      "description": "e1b1c9c450574fa499d4198ff80b1ec6",
+      "required": "true"
+    },
+    "Spotify_ClientSecret": {
+      "description": "c767f2be15df46adabfe5fe03f1f4e16",
+      "required": "true"
+    }
+  }
+}
